@@ -1,0 +1,255 @@
+/* Global selectors */
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Alex+Brush&family=Fredericka+the+Great&display=swap');
+
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Aladin', cursive;
+}
+
+header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.76),rgba(5, 5, 5, 0.5)), url(../images/pexels-roman-odintsov-4551521.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    font-size: 1.2em;
+}
+
+.nav-brand {
+    color: #fff;
+    font-weight: bolder;
+}
+
+.nav-item {
+    display: inline;
+    padding: 1rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10rem;
+}
+
+.label {
+    font-family: 'Alex Brush', cursive;
+    font-size: 2.5rem;
+    color: #C29D5E;
+}
+
+.title {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: .5rem 0;
+    text-transform: uppercase;
+}
+
+button {
+    font-family: 'Aladin', cursive;
+    margin: 1rem 0;
+    padding: .6rem 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.cta {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 1rem 0;
+    color: #C29D5E ;
+}
+
+#about-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+    padding: 0 20%;
+}
+
+.about-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.about-text p {
+    text-align: start;
+}
+
+.about-image img {
+    max-width: 100%;
+    padding: 2rem;
+}
+
+.recipes {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.76),rgba(5, 5, 5, 0.5)), url(../images/pexels-valeria-boltneva-1860199.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    color: #fff;
+}
+
+.recipes-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15rem 0;
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+    padding: 0 20%;
+}
+
+.menu-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.menu-images img {
+    max-width: 100%;
+    padding: .5rem;
+}
+
+.menu-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 2rem;
+    width: 100%;
+}
+
+.blend {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.76),rgba(5, 5, 5, 0.5)), url(../images/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    color: #fff;
+}
+
+.blend-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15rem 0;
+}
+
+.delight {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+    padding: 0 20%;
+}
+
+.delight-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 2rem;
+    width: 100%;
+}
+
+.delight-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.delight-images img {
+    max-width: 100%;
+    padding: .5rem;
+}
+
+.dish1 {
+    grid-column: 1/2;
+    grid-row: 2/4;
+    width: 100%;
+}
+
+.dish2 {
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+.info {
+    color: #fff;
+    background-color: #221d1d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+}
+
+.days {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hours {
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.offices {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.address {
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+footer {
+    color: #fff;
+    background-color: #3a3a3a;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
